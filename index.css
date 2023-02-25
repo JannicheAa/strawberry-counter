@@ -1,0 +1,60 @@
+body {
+    background-image: url("strawberry.jpeg");
+    background-size: cover;
+    font-family: 'Mynerve', cursive;
+    text-align: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    max-width: 400px;
+    margin: 60px auto;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+save-el {
+    font-size: 20px;
+}
+
+button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-family: 'Mynerve', cursive;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+#increment-btn {
+    background: #C51125;
+    border: 2px solid #860C1A;
+}
+
+#increment-btn:hover {
+    background: #860C1A;
+}
+
+#save-btn {
+    background: #737E2D;
+    border: 2px solid #586024;
+}
+
+#save-btn:hover {
+    background: #586024;
+}
+
